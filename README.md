@@ -41,12 +41,18 @@ The environment is set up as an 11x11 grid where each square and associated acti
 Initially, the rewards grid is configured with all values set to -100. Specific locations in the grid are assigned specific rewards: for example, the shipping area is set to 100, while shelves are set to -100. Aisle locations, which represent navigable paths for the robot, are defined with a reward value of -1, indicating permissible movement areas. 
 #### Defining Essential Utility Functions
 check_terminal_state: Checks if a given state is a terminal state.
+
 random_start: Randomly selects a starting location that is not a terminal state.
+
 select_action: Implements the epsilon-greedy strategy for selecting next action.
+
 calculate_next_position: Determines the next location based on the current location and action.
+
 find_shortest_path: Finds the shortest path from a given starting location to the shipping area.
+
 #### Training the Agent Using Q-Learning
 In the process of training the agent using the Q-learning algorithm, key parameters are defined as follows: an epsilon value of 0.1 for the exploration-exploitation trade-off, a discount factor of 0.9 that weighs future rewards, and a learning rate of 0.9 to control the speed of updates in Q-values.
+
 The training process includes the following steps:
 1.	Randomly choose a non-terminal state as the starting location or find the start location according to the given start column and row indexes for each new episode.
 
