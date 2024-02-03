@@ -1,4 +1,5 @@
-This project implemented a Q-learning algorithm in Python, aiming to guide a warehouse robot through a grid-simplified environment, focusing on avoiding shelves and efficiently reaching the shipping area.
+
+Developed a warehouse robot path optimization system based on the Q-learning algorithm, aimed at enhancing the order processing efficiency of logistics centers. By training robots in a simulated grid-based warehouse environment, the project addressed path planning and collision avoidance issues, optimizing logistics operations within the warehouse.
 
 ## MDP Problem Formulation
 ### Goal and Assumptions
