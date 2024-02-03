@@ -1,4 +1,6 @@
+# Warehouse-Robot-with-Q-learning
 
+## Project Overview
 Developed a warehouse robot path optimization system based on the Q-learning algorithm, aimed at enhancing the order processing efficiency of logistics centers. By training robots in a simulated grid-based warehouse environment, the project addressed path planning and collision avoidance issues, optimizing logistics operations within the warehouse.
 
 ## MDP Problem Formulation
